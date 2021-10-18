@@ -46,7 +46,7 @@ Example command:
 
 ## Notes 
 
-When converting audio, you will get the best results using clear, simple samples.  Noisy signals get amplified by the program and become difficult to understand.  When setting the tempo, you are also setting the size of each frame.  High tempos have lower frequency resolution, and might sound incorrect.  But they play more samples for second, so the sound is less compressed.  Low tempos have higher frequency resolution and are more accurate to the original signal, but are more compressed.  It's a tradeoff.  
+When converting audio, you will get the best results using clear, simple samples.  Noisy signals get amplified by the program and become difficult to understand.  When setting the tempo, you are also setting the size of each frame.  High tempos have lower frequency resolution, and might sound incorrect.  But they play more samples per second, so the sound is less compressed.  Low tempos have higher frequency resolution and are more accurate to the original signal, but are more compressed.  It's a tradeoff.  You may want to write a song at 200BPM, but have the audio converted at 100BPM.  You can halve the tempo of the song to 100BPM and make the notes half as long to simulate 200BPM in order to make the audio compatible.  
 
 The filter cut of each instrument is at a minimum by defualt, to cut down on the "crackling" artifacts.  The audio sounds clearer with max filter cut, but it will introduce harsh crackling noises due to jummbox's limitations.
 
