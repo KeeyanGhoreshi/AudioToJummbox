@@ -24,13 +24,13 @@ The command takes the following command line arguments:
 
 `--base -b` - **not required** - The program only outputs the notes.  The rest of the song structure is defined by the "base" file, or a template jummbox json.  This file defines the instruments and other qualities.  This file defaults to `./resources/template.json`
 
-You can change the base file if you want the program to output to have different instruments.  For example, if you would like all the instruments to have max filter cut, instead of min, you can change that in jummbox, output the json file, and replace the template file with your new one.
+You can change the base file if you want the program output to have different instruments.  For example, if you would like all the instruments to have max filter cut, instead of min, you can change that in jummbox, export the json file, and replace the template file with your new one.
 
 The following things are requirements that you cannot change:
 
     - There needs to be 24 pitch channels, 18 low pitch (1x frequency FM) and 6 high pitch (6x frequency FM)
     
-    - There needs to be 8 mod channels
+    - There needs to be 8 mod channels, though I would not recommend changing the mod channels from how they are in the provided file in any way
     
     - The rhythm  needs to be set to "freehand"
 
